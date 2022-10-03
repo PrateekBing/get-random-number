@@ -12,3 +12,10 @@ async def random_number():
 async def nk_number(): 
     n = 69420
     return n 
+
+@app.get("/rags")
+async def rags_number(): 
+    a ="Welcome to your mum gay.org"
+    return a
+
+
